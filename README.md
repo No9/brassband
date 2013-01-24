@@ -1,6 +1,6 @@
 # brassband
 
-An event bus implementation using harmon and redis. 
+A clustered http-proxy that can be used with harmon as an event bus.
 
 ## Install 
 
