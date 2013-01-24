@@ -1,0 +1,35 @@
+{
+  "name": "brassband",
+  "description": "An event bus implementation using harmon and redis",
+  "tags": [
+    "http-proxy",
+    "trumpet",
+    "middleware",
+    "redis",
+    "html",
+	"eventbus"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Anton Whalley",
+    "email": "anton.whalley@vodafone.ie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/No9/brassband.git"
+  },
+  "bugs": {
+    "url": "https://github.com/No9/brassband/issues"
+  },
+  "dependencies": {
+    "harmon": "0.0.4",
+	"http-proxy": "0.8.7",
+    "socket.io-announce": "0.1.5"
+  },
+  "devDependencies" : {
+        "tap" : "~0.2.3"
+    },
+    "scripts" : {
+        "test" : "node test/test.js"
+  }
+}
